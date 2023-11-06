@@ -1,0 +1,12 @@
+body {
+  color: white;
+}
+body .board {
+  height: 100vh;
+}
+body .board .num1 {
+  border: 2px solid #1cd38a;
+}
+body .board .num2 {
+  border: 2px solid #1cd38a;
+}/*# sourceMappingURL=style.css.map */

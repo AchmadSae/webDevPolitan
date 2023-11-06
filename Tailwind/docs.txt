@@ -1,0 +1,15 @@
+untuk membuat inisialisasi npm
+" npm init -y "
+akan mengautomisasi package.json dimana nama aplikasi dan sebagainya di isii secara default. package.json ini merupakan file untuk 
+menambahakan dependenci yang dibutuhkan.
+
+-------------
+untuk menambahakan dependenci 
+" npm i -D nama_dependenci
+
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+/*
+    trhee layers tailwinds. base: menjalankan reset style browser,
+                            compnents: meminta components di library
+                            utilities: meminta kelas utlitis.
+*/

@@ -1,0 +1,18 @@
+body{
+    top: 0;
+    background-color: #202552;
+    color: white;   
+}
+
+.container {
+    height: 100vh;
+    justify-content: center;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container button {
+    cursor: pointer;
+}

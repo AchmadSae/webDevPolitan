@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxBracketSameLine": false
+}
