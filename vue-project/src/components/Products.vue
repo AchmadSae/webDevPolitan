@@ -1,15 +1,18 @@
 <script>
-
+    
 </script>
 
 <template>
     <div class="container">
-        <div class="filter" id="cartInfo">
+        <div class="row">
+        <div class="filter col-sm-4" id="cartInfo" >
+            <label for="" class="font-weight-bold mr-2">Price Set</label>
             <input class="form-control" type="number" placeholder="Default input" aria-label="default input example"
                 v-model="maximum">
         </div>
-        <div class="carts">
-            <span>Filter your products by Price</span>
+        <div class="slider col-sm-8">
+            <input type="range"  class="custome-range mr-auto" min="0" max="200" v-model="maximum">
+        </div>
         </div>
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 mb-4 d-flex" v-for="item in products" :key="item.id">
@@ -19,12 +22,12 @@
                     <div class="card-body">
                         <div class="title">
                             <div class="name">
-                                <h1>{{ item.price | currencyFormat }}</h1>
+                                <h1>{{ currencyFormat(item.price) }}</h1>
                                 <span>{{ item.name }}</span>
 
                             </div>
                             <div class="addCart">
-                                <button type="button" class="btn btn-warning" v-on:click="addItem()">
+                                <button type="button" class="btn btn-warning" @click="addToCart(item)">
                                     <Icon icon="icon-park-solid:shopping-cart-add" width="25" />
                                 </button>
                             </div>
@@ -52,16 +55,20 @@
     color: white;
 }
 
-.filter {
-    display: flex;
-    justify-content: space-between;
+.filter label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
 .filter input {
+    text-align: center;
     width: 5em;
     font-weight: bold;
 }
-
+.slider input{
+    width: 100%;
+    padding: 2em;
+}
 
 .card {
     width: 20em;

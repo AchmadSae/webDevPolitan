@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+body section {
+  padding: 2em;
+  height: 300px;
+}
+body .navbar {
+  background-color: #2B3499;
+  height: 4em;
+  border-bottom: 2px solid #FFD099;
+  padding: 0 2em 0 2em;
+}
+body .navbar a {
+  float: left;
+  display: block;
+  text-decoration: none;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+}
+body .navbar a img {
+  height: 2em;
+  width: 2.5em;
+}
+body .navbar a:hover {
+  background-color: #FF9209;
+  border-radius: 10px;
+}
+body .navbar .right {
+  float: right;
+  display: block;
+  text-decoration: none;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  display: block;
+}
+body .team {
+  display: flex;
+  align-content: space-between;
+  background-color: white;
+}
+body .team .logo {
+  width: 40%;
+}
+body .team .logo img {
+  width: 3em;
+  height: 2em;
+}
+body .team .content {
+  color: black;
+  width: 60%;
+  text-align: center;
+}
+body .team .content h2 {
+  margin: 0;
+}
+body .team .content p {
+  margin: 0;
+}
+body .team .action {
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+}
+body .team .action .lihat {
+  cursor: pointer;
+  background-color: #3876BF;
+  bordr: 2px solid white;
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+body .team .action .beli {
+  cursor: pointer;
+  background-color: #FF6C22;
+  bordr: 2px solid white;
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+body .work {
+  background-color: white;
+}
+body .work .content {
+  text-align: center;
+}
+body .work .content h2 {
+  margin: 0;
+}
+body .work .content p {
+  margin: 0;
+}
+body .work .action {
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+}
+body .work .action .lihat {
+  cursor: pointer;
+  background-color: #3876BF;
+  bordr: 2px solid white;
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+body .work .action .beli {
+  cursor: pointer;
+  background-color: #FF6C22;
+  bordr: 2px solid white;
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+body .family {
+  background-color: #FFD099;
+}
+body .family .content {
+  text-align: center;
+}
+body .family .content h2 {
+  margin: 0;
+}
+body .family .content p {
+  margin: 0;
+}
+body .family .action {
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+}
+body .family .action .lihat {
+  cursor: pointer;
+  background-color: #3876BF;
+  bordr: 2px solid white;
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+body .family .action .beli {
+  cursor: pointer;
+  background-color: #FF6C22;
+  bordr: 2px solid white;
+  border-radius: 10%;
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*# sourceMappingURL=style.csswsa.map */
